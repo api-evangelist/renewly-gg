@@ -1,4 +1,4 @@
-# renewly-gg
+# Renewly
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-renewly-gg is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://renewly.gg/
+Renewly provides a focused vendor contract renewal tracking service. It helps finance, procurement and IT teams monitor contract renewal dates, notice periods and auto‑renewal clauses. Users upload PDFs, the platform extracts key dates and sends alerts 90, 60, 30 and 7 days before deadlines. The SaaS is bootstrapped, self‑funded, based in London, and aims to be a lightweight alternative to full CLM systems.
+
+**Areas:** SaaS · Vendor Management · Contract Renewal · Automation · B2B
+
+## Renewly on APIs.io
+
+Everything profiled for Renewly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/renewly-gg/](https://apis.io/providers/renewly-gg/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Renewly API](https://apis.io/apis/renewly-gg/renewly-api/) — Programmatic access to contract data via a REST API as documented in the developer portal.
+- [Renewly API](https://apis.io/apis/renewly-gg/renewly-gg-api/) — Renewly API as documented publicly: 5 operations. Contract generated from the documentation by API Evangelist (2026-11-23); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetApiV1ContractsIdResponse](https://apis.io/schemas/renewly-gg/renewly-gg-get-api-v1-contracts-id-response/)
+- [PostApiV1ContractsExportRequest](https://apis.io/schemas/renewly-gg/renewly-gg-post-api-v1-contracts-export-request/)
+- [PostApiV1ContractsExportResponse](https://apis.io/schemas/renewly-gg/renewly-gg-post-api-v1-contracts-export-response/)
+- [PostApiV1ContractsRequest](https://apis.io/schemas/renewly-gg/renewly-gg-post-api-v1-contracts-request/)
+- [PostApiV1ContractsResponse](https://apis.io/schemas/renewly-gg/renewly-gg-post-api-v1-contracts-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Renewly Gg Context](https://apis.io/jsonld/renewly-gg/renewly-gg-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Renewly API Rules](https://apis.io/rules/renewly-gg/renewly-gg-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Renewly Authentication](https://apis.io/security/renewly-gg/renewly-gg-authentication/)
+- [Renewly Domain Security](https://apis.io/security/renewly-gg/renewly-gg-domain-security/)
+- [Renewly Vulnerability Disclosure](https://apis.io/security/renewly-gg/renewly-gg-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Renewly Plans Pricing](https://apis.io/plans/renewly-gg/renewly-gg-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://renewly.gg/)
+- [Documentation](https://renewly.gg/docs/api)
+- [Getting started](https://renewly.gg/how-it-works)
+- [API reference](https://renewly.gg/docs/api)
+- [Pricing](https://renewly.gg/pricing)
+- [Support](https://renewly.gg/help)
+- [Blog](https://renewly.gg/blog)
+- [Security](https://renewly.gg/security)
+- [Trust centre](https://renewly.gg/trust)
+- [Terms of service](https://renewly.gg/legal/terms)
+- [Privacy policy](https://renewly.gg/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 58.3** — strong · rubric 0.27.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 51.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 81.1 |
+
+**Agent readiness 41.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/renewly-gg/](https://apis.io/providers/renewly-gg/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Renewly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/renewly-gg/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
